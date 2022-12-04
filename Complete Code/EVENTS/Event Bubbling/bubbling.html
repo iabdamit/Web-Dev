@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bubbling</title>
+        <style>
+            .hide {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section onclick="alert('section clicked')">
+            <p onclick="alert('paragraph clicked')">
+                i am a paragraph
+                <button onclick="alert('button clicked')">click</button>
+            </p>
+        </section>
+        <div id="container">
+            click to hide
+            <button id="changeColor">change color</button>
+        </div>
+        <script src="bubbling.js"></script>
+    </body>
+
+</html>
