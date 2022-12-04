@@ -1,0 +1,17 @@
+
+h1{
+  margin-left: 100px;
+    color:#e63946 ;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+th{
+    margin-left: 60px;
+    color:#fb8500 ;
+}
+ td ::placeholder{
+    color:#00b4d8;
+ }
+ td{
+    text-align: center;
+ }

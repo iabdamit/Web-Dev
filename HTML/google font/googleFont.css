@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-image:url("https://images.unsplash.com/photo-1548195667-1d329af0a472?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80");
+    color:black ;
+    background-size: cover;
+    font-weight:bolder;
+    font-style: initial;
+}
+main{
+    width: 80%;
+    margin:auto;
+}
+h1{
+    height: 70px;
+    font-size: 3rem;
+    margin: auto;
+    color: #a94d07;
+}
+h2{
+    height: 40px;
+}
+h1,h2,h3{
+    font-family: 'Roboto Serif', serif;
+    font-weight: 100;
+    margin: auto;
+    font-weight: bolder;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+h2,h3{
+ color:#be0aff;
+}

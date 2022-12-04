@@ -1,0 +1,70 @@
+*{
+    background-color: rgb(219, 244, 250);
+}
+button{
+   color: rgb(124, 67, 14);
+}
+#hello {
+    color: rgb(228, 214, 20);
+    background-color: rgb(15, 102, 178);
+}
+.tag{
+    color: rgb(168, 242, 8);
+    background-color: rgb(206, 38, 71);
+}
+span a{
+    color: rgb(235, 170, 17);
+}
+li a{
+    color: rgb(244, 11, 248);
+}
+input+button{
+    background-color: bisque;
+}
+footer > a{
+  color: rgb(15, 181, 78);
+}
+input[type="password"]{
+color: rgba(35, 123, 17, 0.635);
+}
+ a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: hsl(240, 64%, 46%);
+}
+.post button:active{
+    background-color:#a0a50c;
+}
+.post:nth-of-type(2n-1){
+    background-color: rgb(176, 203, 226);
+}
+h2::first-letter{
+ font-size: 30px;
+}
+p::first-line{
+    color: #ab09cb;
+}
+p::selection{
+    background-color:black;
+    color: white;
+}
+li a::before{
+    content:"«";
+    color: crimson;
+}
+li a::after{
+    content:"»";
+    color: rgb(93, 39, 211);
+}
+.post button:hover{
+    background-color: rgb(165, 18, 47);
+    color: rgb(13, 130, 130);
+}
+button:hover{
+    color:darkmagenta;
+    font-size: 20px;
+    background-color: rgb(17, 233, 75);
+}

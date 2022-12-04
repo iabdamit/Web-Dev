@@ -1,0 +1,22 @@
+span{
+    color:#3a86ff;
+    background-color:#ffdab9 ;
+    border: 3px #8eecf5 solid ;
+    padding:3px;
+    margin:3px;
+}
+h1{
+    background-color:#52b69a;
+    border:3px #eb5e28 solid;
+    padding: 10px;
+    color:#d80032 ;
+    margin:20px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color:#e9ff70 ;
+    border: 5px #736ced solid;
+    display: inline-block;
+    margin: 15px;
+}

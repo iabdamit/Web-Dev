@@ -1,0 +1,12 @@
+h2 {
+    color: rgb(58, 107, 10);
+    background: rgb(232, 245, 245);
+}
+button{
+    color: rgb(31, 14, 139);
+    background-color: #d6ec7e;
+}
+p{
+    color: hwb(271 4% 49%);
+    background-color:hsl(197, 85%, 79%);
+}

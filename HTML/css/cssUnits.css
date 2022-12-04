@@ -1,0 +1,84 @@
+html{
+    font-size: 15px;
+}
+section{
+    background-color:#bde0fe;
+    width: 200px;
+    height: 200px;
+}
+body{
+    background-color:#f8f7ff;
+}
+div{
+    background-color: #ffa62b;
+    height:50%;
+    width:50%;
+}
+h1{
+    width: 150px;
+    padding: 13px;
+    text-align: center;
+    margin: 8px;
+    border:3px #a4133c solid;
+    color:#590d22 ;
+    background-color:#3dccc7;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    width: 450px;
+    color:#ffaa00 ;
+    background-color:#5a189a ;
+}
+h3{
+    text-align: center;
+    width: 100px;
+    color:#55a630 ;
+    background-color:#d81159 ;
+}
+/* h1{
+    font-size: 40px;
+    border: 3px #9b5de5 solid ;
+    line-height:200%; 
+} */
+#em h2{
+    font-size: 2em;
+    margin-left: 1em;
+}
+#em h3{
+    font-size: 1.5em;
+}
+em{
+    font-size: 15px;
+}
+ p{
+    font-size: 0.9em;
+    background-color: black;
+    color: bisque;
+}
+button{
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius:0.5em;
+    color: #affc41;
+    background-color: #ff6b6b;
+}
+ul{
+    color:#fa198b ;
+}
+#em ul{
+    font-size: 0.8em;
+}
+/*    REMS   */
+#rem h2{
+    font-size: 2.5rem;
+}
+#rem h3{
+    font-size:1.5rem;
+}
+#rem ul{
+    font-size: 0.8rem;
+}
+.id {
+    border:3px #758bfd solid;
+}
